@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Anushka Makeover | Bridal Studio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Anushka Makeover Delhi - Professional Bridal & Party Makeup Studio with 8 years of experience. Book your bridal look today.">
+<meta name="keywords" content="bridal makeup, party makeup, engagement makeup, Delhi makeup artist, HD makeup, airbrush makeup">
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+body{
+  margin:0;
+  font-family:'Poppins',sans-serif;
+  background:#000;
+  color:white;
+  scroll-behavior:smooth;
+}
+
+header{
+  height:100vh;
+  background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('bridal1.jpg');
+  background-size:cover;
+  background-position:center;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+}
+
+header h1{
+  font-family:'Playfair Display',serif;
+  font-size:60px;
+  color:gold;
+  margin:0;
+}
+
+header p{
+  font-size:20px;
+  letter-spacing:2px;
+}
+
+.btn{
+  background:gold;
+  color:black;
+  padding:15px 30px;
+  text-decoration:none;
+  font-weight:bold;
+  border-radius:30px;
+  transition:0.3s;
+}
+
+.btn:hover{
+  background:white;
+}
+
+section{
+  padding:80px 10%;
+  text-align:center;
+}
+
+h2{
+  font-family:'Playfair Display',serif;
+  font-size:40px;
+  color:gold;
+  margin-bottom:40px;
+}
+
+/* Colorful service cards */
+.services{
+  display:flex;
+  justify-content:center;
+  gap:30px;
+  flex-wrap:wrap;
+}
+
+.service-card{
+  padding:25px;
+  width:250px;
+  border-radius:15px;
+  transition:0.4s;
+  border:1px solid #333;
+  font-weight:bold;
+  color:white;
+  cursor:pointer;
+  box-shadow:0 4px 15px rgba(0,0,0,0.4);
+}
+
+.service-card:nth-child(1){ background:#e74c3c; border-color:#c0392b;} /* Red */
+.service-card:nth-child(2){ background:#8e44ad; border-color:#6c3483;} /* Purple */
+.service-card:nth-child(3){ background:#3498db; border-color:#2980b9;} /* Blue */
+.service-card:nth-child(4){ background:#f1c40f; border-color:#d4ac0d; color:black;} /* Yellow */
+
+.service-card:hover{
+  transform:translateY(-10px) scale(1.05);
+  border-color:gold;
+}
+
+/* Gallery with 5 images and colorful hover */
+.gallery{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:20px;
+}
+
+.gallery img{
+  width:100%;
+  border-radius:15px;
+  transition:0.4s;
+  filter: saturate(1.3) brightness(1.1);
+  border: 3px solid gold;
+}
+
+.gallery img:hover{
+  transform: scale(1.08) rotate(1deg);
+  filter: saturate(1.5) brightness(1.2) drop-shadow(0 0 15px gold);
+}
+
+footer{
+  background:#111;
+  padding:40px;
+  text-align:center;
+  border-top:1px solid #333;
+}
+
+.whatsapp{
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  background:#25D366;
+  color:white;
+  padding:15px 18px;
+  border-radius:50%;
+  font-size:20px;
+  text-decoration:none;
+}
+
+/* Responsive for mobile */
+@media(max-width:768px){
+  header h1{ font-size:40px; }
+  header p{ font-size:16px; }
+  .btn{ padding:12px 25px; font-size:16px; }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div>
+<h1>Anushka Makeover</h1>
+<p>Enhancing Beauty with Elegance & Perfection</p>
+<br>
+<a href="https://wa.me/918810303121" class="btn">Book on WhatsApp</a>
+</div>
+</header>
+
+<section>
+<h2>About Us</h2>
+<p>Located in Delhi with 8 Years of Professional Experience in Bridal & Party Makeup.
+We specialize in creating timeless and elegant looks for your special day.</p>
+</section>
+
+<section>
+<h2>Our Services</h2>
+<div class="services">
+  <div class="service-card">Bridal Makeup</div>
+  <div class="service-card">Party Makeup</div>
+  <div class="service-card">Engagement Look</div>
+  <div class="service-card">HD & Airbrush Makeup</div>
+</div>
+</section>
+
+<section>
+<h2>Bridal Gallery</h2>
+<div class="gallery">
+  <img src="bridal1.jpg" alt="Bridal Look 1" loading="lazy">
+  <img src="bridal2.jpg" alt="Bridal Look 2" loading="lazy">
+  <img src="bridal3.jpg" alt="Bridal Look 3" loading="lazy">
+  <img src="bridal4.jpg" alt="Bridal Look 4" loading="lazy">
+  <img src="bridal5.jpg" alt="Bridal Look 5" loading="lazy">
+</div>
+</section>
+
+<footer>
+<p>📍 Delhi</p>
+<p>📞 8810303121</p>
+<p>© 2026 Anushka Makeover. All Rights Reserved.</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/918810303121">💬</a>
+
+</body>
+</html>
